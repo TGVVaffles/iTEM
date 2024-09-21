@@ -22,10 +22,3 @@ We currently aren't advertising as we want to build up the utility and add more 
 |
 
 ---
-## How to build?
-
-### Protoc Files
-
-`protoc -I . --java_out annotate_code:src/main/java/ clientMessages.proto`
-
-`protoc -I . --java_out annotate_code:src/main/java/ serverMessages.proto`
